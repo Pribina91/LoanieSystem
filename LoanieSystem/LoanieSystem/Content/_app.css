@@ -1,0 +1,26 @@
+body	{
+}
+
+.main
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
+}
+
+tbody tr:not(.details):hover
+{
+	cursor: pointer;
+}
+
+tr.details td,
+tr.details:hover
+{
+	background-color: #efefef ! important;
+}
+
+tr td
+{
+	width: 33.333%;
+}
